@@ -1,7 +1,8 @@
 {
   "name": "solswebdesign/plugin-visualisation",
-  "description": "Shows available plugins",
+  "description": "Shows the plugins that are in the code of your magento installation",
   "type": "magento2-module",
+  "version": "v1.0.0",
   "authors": [
      {
         "name": "Isolde van Oosterhout",
