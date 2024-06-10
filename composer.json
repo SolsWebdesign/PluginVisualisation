@@ -1,0 +1,28 @@
+{
+  "name": "solswebdesign/plugin-visualisation",
+  "description": "Shows available plugins",
+  "type": "magento2-module",
+  "authors": [
+     {
+        "name": "Isolde van Oosterhout",
+        "email": "sols@solswebdesign.nl"
+     }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "magento/framework": "*"
+  },
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "version": "0.0.2",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "SolsWebdesign\\PluginVisualisation\\": ""
+    }
+  }
+}
